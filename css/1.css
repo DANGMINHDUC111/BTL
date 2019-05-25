@@ -1,0 +1,957 @@
+*{padding: 0;margin: 0;}
+p
+{
+	color: gray;
+}
+.box1
+{
+	height: 670px;
+	background-image: url(../images/homebg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+}
+.navbar
+{
+	/* background: #00000059!important; */
+	position: fixed;
+	z-index: 8;
+	padding-bottom: 0;
+}
+.nav-item
+{
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+.nav-link
+{
+	color: white!important;
+	font-weight: bold;
+}
+ a.nav-link:hover
+{
+	color:#f16f06!important; 
+	cursor: pointer;
+}
+.active1
+{
+	border-bottom: 1px solid #f16f06; 
+}
+.active1 .nav-link
+{
+	color: #f16f06!important;
+}
+.nenden
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #00000059;
+	z-index: 2;
+}
+.box1 .carousel
+{
+	height: 100%;
+	z-index: 3;
+}
+.box1 .carousel-inner
+{
+	top:40%;
+	color: white;
+}
+.carousel-inner p
+{
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+.btn-warning
+{
+	background: #f16f06; 
+	border:0;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px 13px;
+	border-radius: 0;
+}
+.box1 .carousel-indicators
+{
+	position: absolute;
+	top: 80%;
+}
+.box1 .carousel-indicators li
+{
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	margin: 8px;
+	padding: 0!important;
+	border: 0!important;
+}
+.carousel-indicators .active
+{
+	background:#f16f06;
+	width: 10px;
+	height: 10px;  
+}
+.box2
+{
+	padding-bottom: 100px;
+}
+.box2 .row
+{
+	box-sizing: border-box;
+}
+.box2 .col-lg-3,.box2 .col-md-3,.box2 .col-sm-3
+{
+	max-width: 24%!important;
+	margin-right: 1%;
+	padding: 0!important;
+}
+.div-img
+{
+	position: relative;
+	height: 185px;
+	display: inline-block;
+}
+.img1
+{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	top: 0;
+}
+.img2
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: none;
+}
+.text
+{
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	top: 20%;
+	left: 0;
+	text-align: center;
+}
+.text .fa-map-marker-alt
+{
+	padding-bottom: 20px;
+}
+.caption
+{	
+	display: inline-block;
+	border-bottom: 1px solid gray;
+	padding-bottom: 25px;
+	position: relative;
+	padding-right: 10px;
+}
+.orange
+{
+	position: absolute;
+	width: 30%;
+	height: 3px;
+	background-color:#f16f06;
+	bottom: -1px; 
+}
+.box3
+{
+	padding-bottom: 100px;
+}
+.box3 p
+{
+	padding-top: 90px;
+	padding-bottom: 40px;
+}
+.box4
+{
+	padding-bottom: 100px;
+}
+.box4 .caption
+{
+	margin-bottom: 80px;
+}
+.box4 .carousel-indicators li
+{
+	width: 10px;
+	height: 10px;
+	border: 1px solid gray;
+}
+.box4 .carousel-indicators
+{
+	bottom: -45px;
+}
+.box4 p span
+{
+	font-weight: bold;
+}
+#p1
+{
+	padding: 20px 0;
+}
+.btn-light
+{
+	border: 1px solid gray;
+	border-radius: 0;
+}
+.video
+{
+	position: relative;
+}
+#play
+{	
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	color: white;
+	text-align: center;
+}
+#play img
+{
+	margin-bottom: 10px;
+}
+.box6
+{
+	padding-top: 100px;
+}
+._1row
+{
+	margin-top: 60px;
+}
+.imgrow
+{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 105px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.iconbg1,.iconbg2
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.iconbg1h,.iconbg2h
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+.fa-coffee,.fa-paint-brush,.fa-headphones
+{
+	position: absolute;
+	font-size: 30px;
+	top: 40%;
+	left: 32%;
+	z-index: 2;
+}
+.text1 h4
+{
+	padding-top: 5px;
+}
+.text1 p
+{
+	padding-top: 5px;
+	margin:0;
+}
+.box7 .imgbox7
+{
+	width: 170px; 
+	height: 58px;
+	position: relative;
+}
+.img7_1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img7_2
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1;
+}
+.box7caption
+{
+	position: absolute;
+	z-index: 1;
+	width:170px;
+	text-align: center;
+	left: 0;
+	top: 30%;
+	z-index: 2;
+}
+.fa-heart
+{
+	color: red;
+}
+.fa-check-square
+{
+	display: inline-block;
+	float: left;
+	padding-top: 5px;
+	margin-right: 3px;
+}
+.box7
+{
+	padding-bottom: 100px;
+}
+._100
+{
+	width: 100%;
+	height: 7px;
+	border: 1px solid gray;
+	position: relative;
+	margin-top: 10px;
+}
+._79
+{
+	position: absolute;
+	width: 79%;
+	height: 5px;
+	background: #f16f06;  
+}
+._100>p
+{
+	position: absolute;
+	right: 0;
+	top:-20px;
+}
+._90
+{
+	position: absolute;
+	width: 90%;
+	height: 5px;
+	background: #f16f06;  
+}
+._69
+{
+	position: absolute;
+	width: 69%;
+	height: 5px;
+	background: #f16f06;  
+}
+._92
+{
+	position: absolute;
+	width: 92%;
+	height: 5px;
+	background: #f16f06;  
+}
+.box8
+{
+	height: 340px;
+	width: 100%;
+	background-image: url(../images/counterbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	color: white;
+}
+.box8 .bgbox8
+{
+	width: 100%;
+	height: 100%;
+	background: #00000059;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+.box8 i
+{
+	font-size: 25px;
+}
+.box9 .imgbox9
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	width: 64px;
+	height: 65px;
+}
+.imgbox9 i
+{
+	font-size: 25px;
+	position: absolute;
+	left: 30%;
+	top: 34%;
+	z-index: 2;
+}
+.zoom
+{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	perspective: 500px;
+}
+.hover
+{
+	position: absolute;
+	top: 35%;
+	left: -80%;
+	width: 70%;
+	padding: 10px 0px 10px 15px;
+	background: #f16f06a3;
+	color: white;
+	transition: 0.5s;
+}
+.hover p
+{
+	color: white;
+}
+.hover i
+{
+	color: white;
+	border: 1px solid white;
+	padding: 5px;
+	margin-right: 5px;
+	z-index: 1;
+}
+.hover i:hover
+{
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+.imgbox10
+{
+	transition: 0.5s;
+}
+.imgcollapse
+{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+.ch_col_icn
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ch_col_icn_h
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+.imgcollapse i
+{
+	position: absolute;
+	top: 34%;
+	left: 30%;
+	color: black;
+	z-index: 2;
+}
+.card-header
+{
+	padding: 0;
+}
+.btn-link
+{
+	padding: 0;
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+}
+.colapse
+{
+	padding-top: 150px;
+}
+.box12>.container-fluid
+{
+	height: 400px;
+	background-image: url(../images/testbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.bg
+{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: #00000059;
+}
+.box12 .carousel-item 
+{
+	padding-top: 100px;
+}
+.box12 .carousel-indicators li
+{
+	width: 10px;
+	height: 10px;
+	border: 1px solid gray!important;
+}
+.box12 .carousel-indicators
+{
+	bottom: -30px!important;
+}
+.box13
+{
+	background: #eeeeee;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.imgbox14
+{
+	width: 48px;
+	height: 48px;
+	position: relative;
+	float: left;
+	margin-right: 30px;
+}
+.imgbox14_1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.imgbox14_2
+{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1;
+}
+.imgbox14 i
+{
+	position: absolute;
+	font-size: 20px;
+	z-index: 2;
+	top: 32%;
+	left: 23%;
+}
+.imgbox14:hover
+{
+	cursor: pointer;
+}
+.anhkinh
+{
+	background-image: url(../images/contactbg.png);
+	background-position-x: 1382px;
+	background-position-y: 552px;
+}
+.mapss
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+.bgmap
+{
+	position: absolute;
+	background-color: #ff9540c9;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.bgmap:hover
+{
+	cursor: pointer;
+}
+.box16
+{
+	background-color: #262420;
+	color: white;
+}
+.box16 p
+{
+	color: white;
+}
+.p_hover:hover
+{
+	color: #f16f06;
+	cursor: pointer;
+}
+.box16 .btn-link:hover
+{
+	color: black!important;
+	background-color: #f16f06;
+}
+.footer
+{
+	background-color: #000000;
+}
+.footer .ftright i
+{
+	color: white;
+	border: 1px solid white;
+	padding: 5px 8px;
+	margin-right: 5px;
+}
+.footer .ftright i:hover
+{
+	color:#f16f06;
+	border-color: #f16f06;
+	cursor: pointer; 
+}
+.form-inline
+{
+	position: absolute;
+	top: 17%;
+	right: 13%;
+}
+.simplefilter
+{
+	position: relative;
+	border-bottom: 1px solid gray;
+	padding-bottom: 35px;
+}
+.simplefilter li
+{
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.simplefilter li:hover
+{
+	color: #f16f06;
+	cursor: pointer;
+}
+.icon .fa-facebook-f
+{
+	padding: 5px 10px;
+}
+.box16 .btn-link
+{
+	color: white;
+	border: 1px solid white;
+	padding: 0 170px o 15px;
+}
+.box16 .btn-link
+{
+	padding: 0px 150px 0px 20px;
+}
+#video
+{
+	height: 400px;
+}
+.filtr-item{
+	 height:200px;
+	 padding: 5px;
+	 position: relative;
+}
+.filtr-item>img{
+	width:100%;
+	height: 100%;
+}
+.hover1
+{
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	background-color:  #f16f0694;
+	top: 25%;
+	left: 20%;
+	text-align: center;
+}
+.hover1 i
+{
+	font-size: 25px;
+}
+
+@media (min-width: 0px) and (max-width:576px )
+{
+	.navbar-light .navbar-toggler
+	{
+		border-color:green;
+	}
+	.carousel-inner 
+	{
+		margin-top: -30px;
+	}
+	.box7caption
+	{
+		width: 100%;
+	}
+	.box2 .col-6
+	{
+		max-width: 49%!important;
+		margin-right: 1%;
+		padding: 0;
+		height: 150px;
+	}
+	.box2 .text
+	{
+		top: 10%;
+	}
+	.box2
+	{
+		padding-bottom: 50px;
+	}
+	.box6 .text1 p:nth-child(2n)
+	{
+		display: none;
+	}
+	.box6 .text1 h4
+	{
+		font-size: 20px;
+
+	}
+	.box8 .col-12
+	{
+		padding: 0;
+	}
+	.box8 .col-12 h1
+	{
+		font-size: 20px;
+		padding: 0;
+	}
+	.box8 .col-12 h6
+	{
+		font-size: 12px;
+	}
+	.box8 .col-12 div
+	{
+		padding: 0;
+	}
+	.box8 .col-12 div i
+	{
+		font-size: 12px;
+	}
+	.navbar-light .navbar-toggler-icon
+	{
+		color: white!important;
+		border-color: white;
+	}
+	.box11_1 li
+	{
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.box13
+	{
+		padding: 0;
+	}
+	.box13 .col-6
+	{
+		height: 70px;
+	}
+	.box10 .zoom 
+	{
+		perspective: none;
+	}
+
+
+}
+
+@media (min-width: 577px) and (max-width: 767px)
+{
+	.navbar-light .navbar-toggler
+	{
+		border-color:green;
+	}
+	.box2 .text
+	{
+		top: 0;
+	}
+	.box2 .text h5
+	{
+		font-size: 12px;
+	}
+	.box2 
+	{
+		padding-bottom: 0;
+	}
+	#video
+	{
+		height: 200px;
+	}
+	.box16 .btn-link
+	{
+		padding: 0px 20px 0px 5px;
+	}
+	.box6 .imgrow
+	{
+		width: 100%;
+		height: 100px;
+	}
+	.box6 .imgrow img
+	{
+		height: 100%;
+	}
+	.imgrow i
+	{
+		left: 10%;
+	}
+	.col-sm-4
+	{
+		max-width: 32%;
+		margin-right: 1%;
+	}
+	.box7caption h6
+	{
+		font-size: 12px;
+	}
+	.box7caption
+	{	
+		width: 100%;
+		left: 0;
+		top: 10%;
+	}
+	.box9 .imgbox9
+	{
+		margin-right: 5px;
+	}
+	.box9 h5
+	{
+		font-size: 15px;
+	}
+	.box11_1 .caption h4
+	{
+		font-size: 15px;
+	}
+	.box11_1 li
+	{
+		font-size: 10px;
+		margin-right: 3px;
+	}
+	.box10 .hover 
+	{
+		display: none;
+	}
+	.anhkinh
+	{
+		background-position-x: 1243px;
+		background-position-y: 461px;
+	}
+	.footer i
+	{
+		font-size: 10px;
+	}
+	.box16 .col-sm-3 img
+	{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.navbar-light .navbar-toggler
+	{
+		border-color:green;
+	}
+	.box1 
+	{
+		height: 500px;
+	}
+	.box6 .text1 p
+	{
+		font-size: 13px;
+	}
+	.box6 .text1 h4
+	{
+		font-size: 23px;
+	}
+	.box6
+	{
+		padding-bottom: 20px;
+	}
+	.box7 .col-md-4
+	{
+		max-width: 30%;
+		margin-right: 2%;
+	}
+	.box7 .box7caption
+	{
+		width: 100%;
+		top: 15%;
+		
+	}
+	.box2 .text
+	{
+		top: 5%;
+	}
+	.div-img:hover
+	{
+		cursor: pointer;
+	}
+	.box2
+	{
+		padding-bottom: 0;
+	}
+	video
+	{
+		height: 300px;
+	}
+	.box6
+	{
+		padding-bottom: 50px;
+	}
+	.box7
+	{
+		padding-bottom: 20px;
+	}
+	.box9 h5
+	{
+		font-size: 14px;
+	}
+	.zoom .hover
+	{
+		top: 20%;
+	}
+	.zoom .hover i
+	{
+		font-size: 9px;
+		margin-right: 2px;
+		padding: 3px 4px;
+	}
+	.zoom .hover i .fa-facebook-f
+	{
+		padding: 4px 5px!important;
+	}
+	.box11_1 li
+	{
+		font-size: 13px!important;
+	}
+	.box13
+	{
+		height: 150px;
+		padding-top: 30px;
+	}
+	.anhkinh
+	{
+		background-position-x:1300px;
+		background-position-y:500px;
+	}
+	.box16 .btn-link
+	{
+		padding: 0px 70px 0px 5px;
+	}
+	.box1 .carousel-indicators
+{
+	position: absolute;
+	top: 85%;
+}
+}
